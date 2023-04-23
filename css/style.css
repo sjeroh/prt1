@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* 불릿기호삭제 */
+a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+li {
+    list-style: none;
+}
+
+#wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* top_header */
+.top_header {
+    padding: 15px 30px;
+    background-color: #086AD8;
+    color: rgb(237, 237, 237);
+}
+
+.top_header ul li:first-child {
+}
+
+.top_header ul li i{
+    background: url(/ibz_img/location_on_FILL1_wght400_GRAD0_opsz48.svg) no-repeat left center/15px;
+    padding-left: 23px;
+}
+
+.top_header ul li:first-child{
+    border-right: 1px solid #fff;
+}
+
+.top_header ul li {
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+
+.top_header ul a {
+    background: url(/ibz_img/drafts_FILL1_wght400_GRAD0_opsz48-w.svg ) no-repeat left 5px center/15px;
+
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+    padding-left: 30px;
+}
+
+.top_header ul li:last-child {
+    background: url(/ibz_img/schedule_FILL1_wght400_GRAD0_opsz48.svg) no-repeat left center/15px;
+    float: right;
+    padding: 0;
+    padding-left: 25px;
+}
+
+header{}
+#header{}
+#header h1{
+    float: left;
+    padding: 20px 15px;
+}
+#header h1 a{}
+#header h1 a img{
+   width: 100%;
+}
+#header .nav{
+    float: left;
+
+}
+#header .nav ul{
+
+}
+#header .nav ul li{
+    
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 110px;
+}
+
+#header .nav ul li .topMenu{
+    padding: 40px 15px;
+}
+
+#header .nav ul li .topMenu:nth-child(4){
+    width: 97px;
+    padding-left: -10px;
+}
+
+#header .nav ul li a{
+    display: block;
+    transition: 0.3s;
+    padding: 15px;
+}
+.submenu{
+    position: absolute;
+    left: 5px;
+    height: 20px;
+   
+}
+.submenu li{
+
+}
+.submenu li a{
+    width: 250px;
+    text-align: left;
+    background-color: blueviolet;
+}
+.submenu li ul{
+    position: absolute;
+    left: 280px;
+    top: 0;
+
+}
+.submenu li ul li{}
+.submenu li ul li a{
+    left: 0;
+    width: 250px;
+    float: left;
+    background-color: chartreuse;
+    z-index: 10;
+}
+
+#header .call{
+    float: right;
+}
+#header .call i{
+    border-right: 1px solid #d0d0d0;
+
+}
+#header .call i img{
+    float: left;
+    width: 40px;
+}
+
+#header .call .r_text{
+
+    text-align: left;
+}
