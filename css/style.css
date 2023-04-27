@@ -333,3 +333,34 @@ margin: 20px auto;
     width: 5px;
     box-sizing: border-box;
 }
+
+
+.box_btn{
+    position: relative;
+    margin: 50px auto;
+}
+.box_btn>div{
+    margin-right: 15px;
+    text-align: center;
+    float: left;
+    width: 350px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #cccccc;
+}
+.box_btn>div:last-child{
+    margin-right: 0;
+}
+
+
+
+.box_btn>div a{
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+
+
+}
