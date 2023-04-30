@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, i, fieldset, form, label, legend, dl, ol, ul, li, tr, th, td,footer, nav, header, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "poppins", sans-serif;
+}
+
+ol, ul, li{
+    list-style: none;
+
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
