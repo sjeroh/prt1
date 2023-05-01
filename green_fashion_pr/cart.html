@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+
+    <div id="wrap">
+        <header>
+            <img src="images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left">
+            <h2>Cart</h2>
+            <img src="images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
+        </header>
+        <div class="cart_items">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/cart_thumb_01.jpg" alt="">
+                        <strong>
+                        T-shirt for men
+                        </strong>
+                        <span>
+                            Players, QUANTITY : 1
+                        </span>
+                    </a>
+                    <a href="#" class="trash">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/cart_thumb_02.jpg" alt="">
+                        <strong>
+                         Wrist Watch
+                        </strong>
+                        <span>
+                            Sports, QUANTITY : 1
+                        </span>
+                    </a>
+                    <a href="#" class="trash">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/cart_thumb_03.jpg" alt="">
+                        <strong>
+                            Full Sleeve Shirt
+                        </strong>
+                        <span>
+                            Johns, QUANTITY : 1
+                        </span>
+                    </a>
+                    <a href="#" class="trash">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/cart_thumb_04.jpg" alt="">
+                        <strong>
+                            Sunglass
+                        </strong>
+                        <span>
+                            Heat, QUANTITY : 1
+                        </span>
+                    </a>
+                    <a href="#" class="trash">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/cart_thumb_05.jpg" alt="">
+                        <strong>
+                            Running Shoes
+                        </strong>
+                        <span>
+                            Zoom, QUANTITY : 1
+                        </span>
+                    </a>
+                    <a href="#" class="trash">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pay_ment">
+            <ul>
+                <li>
+                    <p>Subtotal</p>
+                    <span>$75.00</span>
+                </li>
+                <li>
+                    <p>Discount</p>
+                    <span>-$09.00</span>
+                </li>
+                <li>
+                    <p>Total</p>
+                    <span>$66.00</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main_btn2">
+            <a href="#" class="btn">MAKE PAYMENT</a>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.box_img').slick({
+                infinite: false,
+                slidesToShow: 1.2,
+                dots: true,
+                arrows:false,
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
